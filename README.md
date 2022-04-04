@@ -73,24 +73,24 @@ Para executar este lab é aconselhável que tenha boa familiaridade com a Azure 
 
 + Selecionar a placa e porta para execução:
 
-![image](https://user-images.githubusercontent.com/42357180/160689100-543ab7ad-78a1-4057-b45a-d86424398301.png)
+![image](https://user-images.githubusercontent.com/42357180/161621665-b6b331e4-19ca-43fe-b29d-b581910e0ae0.png)
 
 ![image](https://user-images.githubusercontent.com/42357180/160690332-089e5349-ec66-484b-99b4-1d03dc45180c.png)
 
 
 + Fazer upload do código para a placa:
 
-![image](https://user-images.githubusercontent.com/42357180/160687722-8204f460-9d22-4763-bcad-ec48f8e3ddda.png)
+![image](https://user-images.githubusercontent.com/42357180/161621162-45d9ade3-512f-4d48-be1c-c4f1680fd001.png)
 
 + Acompanhamento do processo do upload do código antes de conectar a rede wifi:
 
-![image](https://user-images.githubusercontent.com/42357180/160689507-d16c27bd-30a2-42f3-b581-a36c44ebba32.png)
+![image](https://user-images.githubusercontent.com/42357180/161619292-05cc18f1-c5d9-42ef-a815-e2aa74117f76.png)
 
 + Visualizar a execução pelo "Serial Monitor" e o momento que a placa é conectado a rede wi-fi:
 
-![image](https://user-images.githubusercontent.com/42357180/160686634-301440b5-d08a-4bc0-8580-72ee7e6a5dc7.png)
+![image](https://user-images.githubusercontent.com/42357180/161620081-dbbf839b-1983-404a-b7ca-820aab6e48bb.png)
 
-![image](https://user-images.githubusercontent.com/42357180/160691272-7707dae7-ae09-4205-b1db-54ad877faf55.png)
+![image](https://user-images.githubusercontent.com/42357180/161623867-e38825aa-97a1-44cb-8af6-736554ef1396.png)
 
 A imagem acima mostra quando o wi-fi foi estabelecido com sucesso e o processo enviou mensagem ao IoT Hub.
 
@@ -111,9 +111,11 @@ No container é armazenado um arquivo .json de forma incremental. Sempre que o h
 ![image](https://user-images.githubusercontent.com/42357180/160661344-7fee93fd-41cd-495b-af26-8c2d49d3a7eb.png)
 
 **Visualização do arquivo json**
-![image](https://user-images.githubusercontent.com/42357180/160664235-ebaea27f-114b-448a-93f7-9d0c86eddc7b.png)
+![image](https://user-images.githubusercontent.com/42357180/161624415-8867872a-a0f9-4491-aaca-cf18ead62106.png)
 
-**A coluna Valor** - é o dado que vem do potenciômetro ligado a placa NodeMCU, a cada movimento que faço no potenciômetro a cada 3 segundos é enviado um novo valor.
+**Coluna temperatureC** - temperatura em Celsius coletado do sensor de temperatura. A cada 3 segundos é enviado um novo valor de temperatura.
+
+**Coluna humidity** - umidade coletado do sensor de temperatura. A cada 3 segundos é enviado um novo valor de umidade.
 
 **Observações**
 
