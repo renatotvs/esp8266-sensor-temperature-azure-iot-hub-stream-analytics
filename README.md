@@ -1,4 +1,4 @@
-# LAB2: NodeMCU ESP8266 com Sensor de temperatura DHT11 - Azure IoT Hub, Stream Analytics e Blob Storage
+# LAB 2: NodeMCU ESP8266 com Sensor de temperatura DHT11 - Azure IoT Hub, Stream Analytics e Blob Storage
 
 **Objetivo deste Laboratório:**
 
