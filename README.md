@@ -65,10 +65,10 @@ Para executar este lab é aconselhável que tenha boa familiaridade com a Azure 
 
 **Explicação conexão dos pinos:**
 
-+ Saída do sinal está ligado a porta digital "D1".
-+ Pino "terra" ligado a porta GND.
-+ Entrada do sinal está ligado no VCC(5 volts) na porta VIN.
-
++ Porta digital "D1" está conectado o pino da saída do sinal
++ Pporta GND está ligado o "terra"
++ Na porta VIN (5 volts) está ligado a entrada do sinal
+ 
 ## Execução do projeto Arduino com a placa NodeMCU
 
 + Selecionar a placa e porta para execução:
