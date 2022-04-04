@@ -42,8 +42,8 @@ Para executar este lab é aconselhável que tenha boa familiaridade com a Azure 
   
   + **Arquivos:**
   
-    + **AzureIoTHubLabDemo1.ino** -  arquivo principal que efetua a conexão com wifi da rede configurada e executa o envio da mensagem ao IoT Hub.
-    + **config.h** - contém os parâmetros que precisam ser configurados:
+    + **dht_temperature_AzureIoTHubLabDemo2.ino** -  arquivo principal que efetua a conexão com wifi da rede configurada e executa o envio da mensagem ao IoT Hub.
+    + **dht_temperature_AzureIoTHub_config.h** - contém os parâmetros que precisam ser configurados:
       + connection string do "Device" do IoT Hub criado
       + dados de acesso a rede wi-fi
       + pino de comunicação com a placa nodeMCU
