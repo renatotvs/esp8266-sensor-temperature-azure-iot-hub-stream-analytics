@@ -75,7 +75,7 @@ Para executar este lab é aconselhável que tenha boa familiaridade com a Azure 
 
 ![image](https://user-images.githubusercontent.com/42357180/161621665-b6b331e4-19ca-43fe-b29d-b581910e0ae0.png)
 
-![image](https://user-images.githubusercontent.com/42357180/160690332-089e5349-ec66-484b-99b4-1d03dc45180c.png)
+![image](https://user-images.githubusercontent.com/42357180/161625136-bc8c8da4-156b-438f-936e-4502331a4804.png)
 
 
 + Fazer upload do código para a placa:
