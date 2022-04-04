@@ -55,9 +55,9 @@ Para executar este lab é aconselhável que tenha boa familiaridade com a Azure 
 
 ![image](https://user-images.githubusercontent.com/42357180/161611909-92e73ab6-202e-4bfb-b965-74238f3daa48.png)
 
-1-pino de dados (recebe informações do sensor)
-2-pino positivo (VCC)
-3-pino negativo (GND)
++ pino 1 - saída do sinal (contém informações do sensor)
++ pino 2 - positivo (VCC)
++ pino 3 - negativo (GND)
 
 ## Ligação dos pinos no dispositivo DHT11 na placa NodeMCU Esp8266
 
@@ -65,9 +65,9 @@ Para executar este lab é aconselhável que tenha boa familiaridade com a Azure 
 
 **Explicação conexão dos pinos:**
 
-+ Saída do sinal ou "dados" ligado a porta digital "D1".
++ Saída do sinal está ligado a porta digital "D1".
 + Pino "terra" ligado a porta GND.
-+ Pino "entrada de sinal" é ligado no VCC(5 volts) na porta VIN.
++ Entrada do sinal está ligado no VCC(5 volts) na porta VIN.
 
 ## Execução do projeto Arduino com a placa NodeMCU
 
