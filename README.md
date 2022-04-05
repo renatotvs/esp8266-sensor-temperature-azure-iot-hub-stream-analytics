@@ -2,7 +2,7 @@
 
 **Objetivo deste Laboratório:**
 
-Conectar a placa NodeMCU v3 Esp8266 para efetuar leitura do sensor de temperatura DHT11 e integrar ao Azure IOT Hub e aos serviços Stream Analytics e Azure Blob Storage.
+Conectar a placa NodeMCU v3 Esp8266 para efetuar leitura do sensor de temperatura e umidade DHT11 e integrar ao Azure IOT Hub e aos serviços Stream Analytics e Azure Blob Storage.
 
 **Componentes utilizados:**
 + Device: Placa NodeMCU ESP8266
