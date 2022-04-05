@@ -75,7 +75,7 @@ Para executar este lab é aconselhável que tenha boa familiaridade com a Azure 
 ![image](https://user-images.githubusercontent.com/42357180/161625136-bc8c8da4-156b-438f-936e-4502331a4804.png)
 
 
-**Certifique-se que o cabo usb esteja conectado corretamente):**
+**Certifique-se que o cabo usb esteja conectado:**
 
 ![7_nodemcu_connection_with_pc](https://user-images.githubusercontent.com/42357180/161812642-60120370-f9b3-463f-a0f9-e858eaba970e.png)
 
