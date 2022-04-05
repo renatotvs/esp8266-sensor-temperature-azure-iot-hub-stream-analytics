@@ -116,9 +116,8 @@ No container é armazenado um arquivo .json de forma incremental. Sempre que o h
 
 **Dados coletados do sensor:**
 
-**Coluna temperatureC** - temperatura em Celsius.
-
-**Coluna humidity** - umidade.
++ **temperatureC** - temperatura em Celsius.
++ **humidity** - umidade.
 
 *A cada 3 segundos é coletado um novo valor de temperatura e umidade.*
 
