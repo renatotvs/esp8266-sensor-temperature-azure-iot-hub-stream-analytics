@@ -8,7 +8,7 @@ Conectar a placa NodeMCU v3 Esp8266 para efetuar leitura do sensor de temperatur
 + Device: Placa NodeMCU ESP8266
 + Sensor de temperatura DHT11
 
-**Cenário**
+## Cenário
 
 ![image](https://user-images.githubusercontent.com/42357180/160649317-bd5b9dd5-f8dc-4881-b169-b752374759bd.png)
 
@@ -33,17 +33,14 @@ Para executar este lab é aconselhável que tenha boa familiaridade com a Azure 
 + pino 2 - positivo (VCC)
 + pino 3 - negativo (GND)
 
-## Ligação dos pinos no dispositivo DHT11 na placa NodeMCU Esp8266
+## Explicação conexão dos pinos na NodeMCU
 ![20220405_133529](https://user-images.githubusercontent.com/42357180/161809434-06761e12-5262-4b6a-ad3a-319470355076.jpg)
-
-
-**Explicação conexão dos pinos:**
 
 + Porta digital "D1" está conectado o pino da saída do sinal do sensor
 + Porta GND está ligado o "terra/negativo"
 + Porta 3V (3.5 volts) está ligado a entrada do sinal "positivo" conhecido também como VCC (opera entre 3.5 á 5 volts)
 
-**Plataforma desenvolvimento - Arduino IDE**
+## Plataforma desenvolvimento - Arduino IDE
   + instalar as bibliotecas para comunicação com Azure ioT Hub:
     + AzureIoTHub
     + AzureIoTProtocol_MQTT
@@ -77,6 +74,10 @@ Para executar este lab é aconselhável que tenha boa familiaridade com a Azure 
 
 ![image](https://user-images.githubusercontent.com/42357180/161625136-bc8c8da4-156b-438f-936e-4502331a4804.png)
 
+
+**Certifique-se que o cabo usb esteja conectado corretamente):**
+
+![7_nodemcu_connection_with_pc](https://user-images.githubusercontent.com/42357180/161812642-60120370-f9b3-463f-a0f9-e858eaba970e.png)
 
 + Fazer upload do código para a placa:
 
@@ -113,9 +114,13 @@ No container é armazenado um arquivo .json de forma incremental. Sempre que o h
 **Visualização do arquivo json**
 ![image](https://user-images.githubusercontent.com/42357180/161624415-8867872a-a0f9-4491-aaca-cf18ead62106.png)
 
-**Coluna temperatureC** - temperatura em Celsius coletado do sensor de temperatura. A cada 3 segundos é enviado um novo valor de temperatura.
+**Dados coletados do sensor:**
 
-**Coluna humidity** - umidade coletado do sensor de temperatura. A cada 3 segundos é enviado um novo valor de umidade.
+**Coluna temperatureC** - temperatura em Celsius.
+
+**Coluna humidity** - umidade.
+
+*A cada 3 segundos é coletado um novo valor de temperatura e umidade.*
 
 **Observações**
 
