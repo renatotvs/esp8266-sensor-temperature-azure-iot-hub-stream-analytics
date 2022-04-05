@@ -1,4 +1,4 @@
-# LAB 2: NodeMCU ESP8266 com Sensor de temperatura DHT11 - Azure IoT Hub, Stream Analytics e Blob Storage
+# LAB 2: NodeMCU ESP8266 com Sensor de temperatura e umidade DHT11 - Azure IoT Hub, Stream Analytics e Blob Storage
 
 **Objetivo deste Laboratório:**
 
@@ -25,6 +25,23 @@ Para executar este lab é aconselhável que tenha boa familiaridade com a Azure 
 5) criar um novo container
 6) configurar o Stream analytics (entre IoT Hub e blob storage - container)
 
+## Esquema de ligação do sensor DHT11
+
+![Esquema-NodeMCU-Sensor-temperatura-umidade-DHT11](https://user-images.githubusercontent.com/42357180/161806798-4f3b6a5d-d0e5-41b2-9e44-2768d5592678.png)
+
++ pino 1 - saída do sinal (obtém informações do sensor)
++ pino 2 - positivo (VCC)
++ pino 3 - negativo (GND)
+
+## Ligação dos pinos no dispositivo DHT11 na placa NodeMCU Esp8266
+![20220405_133529](https://user-images.githubusercontent.com/42357180/161807204-ea7bac1a-0469-4023-ab56-89b9d103bdcf.jpg)
+
+**Explicação conexão dos pinos:**
+
++ Porta digital "D1" está conectado o pino da saída do sinal do sensor
++ Porta GND está ligado o "terra/negativo"
++ Porta 3V (3.5 volts) está ligado a entrada do sinal "positivo" conhecido também como VCC (opera entre 3.5 á 5 volts)
+
 **Plataforma desenvolvimento - Arduino IDE**
   + instalar as bibliotecas para comunicação com Azure ioT Hub:
     + AzureIoTHub
@@ -50,24 +67,6 @@ Para executar este lab é aconselhável que tenha boa familiaridade com a Azure 
       + etc.
     + **iotHubClient.ino** - contém método que dispara a mensagem para Azure IoT Hub.
     + **message.ino** - contém método que efetua leitura do componente configurado no pino da placa que nesse caso estamos usando um potenciômetro como exemplo, poderia ser usado algum outro dispositivo: sensor de temperatura, umidade, etc.
-
-## Explicação dos pinos do sensor de temperatura DHT11
-
-![image](https://user-images.githubusercontent.com/42357180/161611909-92e73ab6-202e-4bfb-b965-74238f3daa48.png)
-
-+ pino 1 - saída do sinal (contém informações do sensor)
-+ pino 2 - positivo (VCC)
-+ pino 3 - negativo (GND)
-
-## Ligação dos pinos no dispositivo DHT11 na placa NodeMCU Esp8266
-
-![image](https://user-images.githubusercontent.com/42357180/161612665-f640b797-b4ac-4acd-858b-fd07f9731015.png)
-
-**Explicação conexão dos pinos:**
-
-+ Porta digital "D1" está conectado o pino da saída do sinal
-+ Pporta GND está ligado o "terra"
-+ Na porta VIN (5 volts) está ligado a entrada do sinal
  
 ## Execução do projeto Arduino com a placa NodeMCU
 
