@@ -121,8 +121,8 @@ No container é armazenado um arquivo .json de forma incremental. Sempre que o h
 
 *A cada 3 segundos é coletado um novo valor de temperatura e umidade.*
 
-**Observações**
+**Conseiderações**
 
 Fique a vontade para mudar o parãmetro de configuração do tempo de 3 segundos ou mesmo incluir novos componentes de medição.
 Esse laboratório é apenas uma ideia de como integrar a placa NodeMCU com Azure IoT Hub.
-É possível aplicar a diversos cenários da internet das coisas (iot) como coleta de sensores, telemetria, etc.
+É possível aplicar a diversos cenários da internet das coisas (iot), coleta de sensores diversos, telemetria, etc...
