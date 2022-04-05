@@ -34,7 +34,8 @@ Para executar este lab é aconselhável que tenha boa familiaridade com a Azure 
 + pino 3 - negativo (GND)
 
 ## Ligação dos pinos no dispositivo DHT11 na placa NodeMCU Esp8266
-![20220405_133529](https://user-images.githubusercontent.com/42357180/161807204-ea7bac1a-0469-4023-ab56-89b9d103bdcf.jpg)
+![20220405_133529](https://user-images.githubusercontent.com/42357180/161809434-06761e12-5262-4b6a-ad3a-319470355076.jpg)
+
 
 **Explicação conexão dos pinos:**
 
